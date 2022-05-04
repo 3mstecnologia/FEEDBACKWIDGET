@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Servidor backend da aplicacao de feedback da NLW8",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev ./src/server.ts"
+  },
+  "author": "Matheus Schmitt",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.13.0",
+    "@types/express": "^4.17.13",
+    "express": "^4.18.1"
+  }
+}
